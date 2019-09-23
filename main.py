@@ -66,7 +66,7 @@ def register():
         password = ''
         match = ''
     if match != password:
-        match_error = "Password and retyped password must match."
+        match_error = "Passwords don't match."
         password = ''
         match = ''
     
